@@ -1,0 +1,5 @@
+s = float(input('Qual é o salário atual do Funcionário?: R$ '))
+aum = float(input('Quanto % de Aumento?: '))
+a = float(s*aum/100)
+n= float(s + a)
+print(f'Um Funcionário que ganhava R$ {s:.2f},com {aum:.2f}% de Aumento,\nPassa a Receber {n:.2f}')
